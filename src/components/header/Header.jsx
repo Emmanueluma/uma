@@ -13,8 +13,8 @@ const Header = () => {
             <h1 >
                 <span>
                     <Typewriter
-                        words={['emmanuel uma', 'nicki scott']}
-                        loop={2}
+                        words={['emmanuel uma']}
+                        loop={5}
                         cursor
                         cursorStyle='|'
                         typeSpeed={70}
