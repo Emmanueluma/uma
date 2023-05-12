@@ -1,0 +1,128 @@
+section.contact{
+    margin-bottom: 4rem;
+    padding-top: 2rem;
+}
+section.contact .flex-container{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.contact .flex-container .flex-item{
+    height: 600px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section.contact .flex-container .flex-item.one{
+    width: 40%;
+}
+section.contact .flex-container .flex-item.one article{
+    width: 300px;
+    height: 200px;
+    background-color: var(--color-bg-variant);
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    transition: all .3s;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-size: .9rem;
+}
+section.contact .flex-container .flex-item.one article:hover{
+    background-color: transparent;
+    border-color: var(--color-primary-variant);
+}
+section.contact .flex-container .flex-item.one article .icons{
+    font-size: 1.4rem;
+}
+section.contact .flex-container .flex-item.two{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+section.contact .flex-container .flex-item.two form {
+    width: 100%;
+}
+section.contact .flex-container .flex-item.two form input,
+section.contact .flex-container .flex-item.two form textarea{
+    width: 80%;
+    padding: 1.5rem .3rem;
+    margin-bottom: 1.5rem;
+    background-color: transparent;
+    border: 2px solid var(--color-light);
+    text-indent: 1rem;
+    border-radius: 10px;
+    color: var(--color-light);
+    font-size: .9rem;
+}
+section.contact .flex-container .flex-item.two form input:focus,
+section.contact .flex-container .flex-item.two form textarea:focus{
+    border-color: var(--color-primary-variant);
+}
+section.contact .flex-container .flex-item.two form ::placeholder{
+    text-transform: capitalize;
+}
+section.contact .flex-container .flex-item.two form textarea{
+    padding: .8rem .3rem;
+}
+section.contact .flex-container .flex-item.two form button{
+    font-size: .9rem;
+    cursor: pointer;
+}
+@media screen and (max-width: 910px) {
+    section.contact {
+        height: auto;
+    }
+    section.contact .flex-container{
+        flex-direction: column;
+    }
+    section.contact .flex-container .flex-item.one{
+        width: 100%;
+    }
+    section.contact .flex-container .flex-item.one article{
+        height: 300px;
+    }
+    section.contact .flex-container .flex-item.two{
+        height: auto;
+        width: 100%;
+    }
+    section.contact .flex-container .flex-item.two form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    section.contact .flex-container .flex-item.one article,
+    section.contact .flex-container .flex-item.two form input,
+    section.contact .flex-container .flex-item.two form textarea{
+    width: 60%;}
+}
+
+@media screen and (max-width: 600px) {
+    section.contact .flex-container .flex-item.one article,
+    section.contact .flex-container .flex-item.two form input,
+    section.contact .flex-container .flex-item.two form textarea{
+    width: 80%;}
+}
+@media screen and (max-width: 450px) {
+    section.contact .flex-container .flex-item.one article,
+    section.contact .flex-container .flex-item.two form input,
+    section.contact .flex-container .flex-item.two form textarea{
+    width: 100%;}
+    section.contact .flex-container .flex-item.two form{
+        align-items: flex-start;
+    }
+}
+@media screen and (max-width: 347px) {
+    section.contact .flex-container .flex-item.two form button{
+        width: auto;
+        padding: .7rem .9rem;
+    }
+}

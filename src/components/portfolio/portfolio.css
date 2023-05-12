@@ -1,0 +1,82 @@
+section.Portfolio{
+    height: auto;
+}
+section.Portfolio .grid-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(2, 350px);
+    grid-gap: 30px;
+    justify-content: center;
+}
+section.Portfolio .grid-container .portfolio-card{
+    padding: 1.2rem;
+    border: 1px solid var(--color-primary);
+    border-radius: 20px;
+    background-color: var(--color-bg-variant);
+    transition: all .3s;
+}
+section.Portfolio .grid-container .portfolio-card:hover{
+    background-color: transparent;
+}
+section.Portfolio .grid-container .portfolio-card .portfolio-img{
+    width: 100%;
+    height: 60%;
+    border-radius: 20px;
+}
+section.Portfolio .grid-container .portfolio-card .portfolio-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+section.Portfolio .grid-container .portfolio-card h4{
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+section.Portfolio .grid-container .portfolio-card .dw--btn,
+section.Portfolio .grid-container .portfolio-card .btn--primary{
+    border-width: 1px;
+}
+section.Portfolio .grid-container .portfolio-card .dw--btn{
+    padding: .5rem .9rem ;
+}
+section.Portfolio .grid-container .portfolio-card .btn--primary{
+    padding: .5rem ;
+}
+
+@media screen and (max-width: 1118px) {
+    section.Portfolio .grid-container{
+        grid-template-columns: repeat(2, 45%);
+        grid-template-rows: repeat(3, 350px);
+    }
+}
+
+@media screen and (max-width: 756px) {
+    section.Portfolio .grid-container{
+        grid-template-columns: repeat(1, 70%);
+        grid-template-rows: repeat(6, 350px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section.Portfolio .grid-container{
+        grid-template-columns: repeat(1, 80%);
+    }
+}
+@media screen and (max-width: 448px) {
+    section.Portfolio .grid-container{
+        grid-template-columns: repeat(1, 90%);
+    }
+}
+@media screen and (max-width: 348px) {
+    section.Portfolio .grid-container .portfolio-card .dw--btn,
+    section.Portfolio .grid-container .portfolio-card .btn--primary{
+        display: inline;
+    }
+}
+@media screen and (max-width: 312px) {
+    section.Portfolio .grid-container{
+        grid-template-columns: repeat(1, 100%);
+    }
+}

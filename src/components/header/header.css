@@ -1,0 +1,142 @@
+/* =========HEADER========== */
+header{
+    position: relative;
+    padding-top: 4rem;
+}
+
+.name {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.name h1, .name h5{
+    margin-bottom: .4rem;
+}
+.name h5{
+    font-size: 1.1rem;
+    font-size: 600;
+}
+.name h1{
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+
+.cta{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.dw--btn,.btn--primary{
+    font-weight: 700;
+    transition: all .4s ease-in-out;
+}
+.dw--btn{
+    padding: 1.1rem 2rem;
+    border: 2px solid var(--color-primary-variant);
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+.dw--btn:hover,.btn--primary:hover{
+    background-color: var(--color-white);
+    color: var(--color-bg-variant);
+    border-color: transparent;
+}
+.btn--primary {
+    border: 3px solid var(--color-primary-variant);
+    border-radius: 5px;
+    padding: 1.1rem 1.5rem;
+    background-color: var(--color-primary);
+    color: var(--color-bg-variant);
+}
+
+
+.img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 350px;
+    height: 55%;
+    margin: 0 auto;
+    background:  -webkit-linear-gradient(var(--color-primary), transparent);
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+}
+
+.rl{
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rl a{
+    font-size: 1.4rem
+}
+.header--social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header--social:after{
+    content: "";
+    width: 2px;
+    background-color: var(--color-primary);
+    height: 2rem;
+    z-index: 4;
+}
+.scrolldown a{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    transform: rotate(90deg);
+    width: 140px;
+    height: 140px;
+}
+.header--social a,.scrolldown a{
+    font-size: 1.1rem;
+}
+@media screen and (max-width: 600px) {
+    .rl{
+        display: none;
+    }
+}
+@media screen and (max-width: 359px){
+    .img{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 347px) {
+    .name h5{
+        font-size: .9rem;
+    }
+    .name h1{
+        font-size: 1.6rem;
+    }
+    .cta{
+        margin: 0 auto;
+        width: auto;
+        height: 61px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .dw--btn,.btn--primary {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        font-size: .9rem;
+        padding: 0;
+    }
+    .dw--btn{
+        width: 60%;
+    }
+    .btn--primary{
+        width: 30%;
+    }
+}

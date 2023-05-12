@@ -1,0 +1,147 @@
+section.about{
+    height: auto;
+}
+section.about .flex-container{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+section.about .flex-container .flex-items{
+    height: auto;
+}
+section.about .flex-container .flex-items.one {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+section.about .flex-container .flex-items.one div {
+    border-radius: 40px;
+    width: 400px;
+    height: 400px;
+}
+section.about .flex-container .flex-items.one div.shadow{
+    position: absolute;
+    background: -webkit-linear-gradient(45deg, transparent, var(--color-primary) ,transparent)
+}
+section.about .flex-container .flex-items.one div.img-container{
+    transform: rotate(20deg);
+    transition: all .3s ease-in-out;
+    background-color: var(--color-primary);
+}
+section.about .flex-container .flex-items.one div.img-container:hover{
+    transform: rotate(0deg);
+}
+
+section.about .flex-container .flex-items.two {
+    width: 60%;
+    height: 400px;
+}
+section.about .flex-container .flex-items.two .cards{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: 150px;
+    margin-bottom: 1.4rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    grid-gap: 30px;
+}
+section.about .flex-container .flex-items.two .cards article {
+    height: 100%;
+    background-color: var(--color-bg-variant);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: .4s;
+    cursor: default;
+}
+section.about .flex-container .flex-items.two .cards article:hover{
+    background-color: transparent;
+    border-color: var(--color-primary-variant);
+}
+section.about .flex-container .flex-items.two p{
+    width: 80%;
+    margin-bottom: 1.4rem;
+}
+
+
+
+@media screen and (max-width: 1520px) {
+    section.about .flex-container{
+        gap: 50px;
+    }
+    section.about .flex-container .flex-items.one div {
+        width: 300px;
+        height: 300px;
+    }
+    section.about .flex-container .flex-items.one div.img-container{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 935px) {
+    section.about .flex-container{
+        flex-direction: column;
+        height: auto;
+    }
+    section.about .flex-container .flex-items.one{
+        width: auto;
+    }
+    section.about .flex-container .flex-items.two{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    section.about .flex-container .flex-items.two .cards,
+    section.about .flex-container .flex-items.two p{
+        width: auto;
+    }
+}
+@media screen and (max-width: 600px) {
+    section.about .flex-container .flex-items.two{
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    section.about .flex-container .flex-items.two{
+        width: auto;
+    }
+    section.about .flex-container .flex-items.two .cards{
+        width: 100%;
+        grid-gap: 10px;
+        grid-template-columns: repeat(2, 50% );
+        grid-template-rows: repeat(2, 150px);
+        justify-content: space-around;
+        margin-bottom: 3rem;
+    }
+    section.about .flex-container .flex-items.two p.text{
+        margin-bottom: 4rem;
+    }
+}
+
+@media screen and (max-width: 396px) {
+    section.about .flex-container .flex-items.one{
+        width: 100%;
+        height: 100%;
+    }
+    section.about .flex-container .flex-items.one div {
+        width: 200px;
+        height: 200px;
+    }
+    section.about .flex-container .flex-items.one div.img-container {
+        width: 200px;
+    }
+}

@@ -1,0 +1,67 @@
+section.experience{
+    height: auto;
+}
+section.experience .flex-container{
+    margin: auto;
+    width: 80%;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section.experience .flex-container .flex-items{
+    width: 600px;
+    height: 350px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 1rem;
+    background-color: var(--color-bg-variant);
+    transition: all .3s;
+}
+section.experience .flex-container .flex-items:hover{
+    background-color: transparent;
+    border-color: var(--color-bg-variant);
+}
+
+section.experience .flex-container .flex-items h3{
+    text-align: center;
+    font-size: 1.3rem;
+    color: var(--color-primary);
+    margin-bottom: 2rem;
+}
+section.experience .flex-container .grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 48%);
+    grid-template-rows: repeat(2, 80px);
+    justify-content: center;
+}
+section.experience .flex-container .grid-container article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section.experience .flex-container .grid-container article div{
+    width: 80%;
+    height: 100%;
+    color: var(--color-primary);
+}
+section.experience .flex-container .grid-container article div.one {
+    width: 20%;
+}
+section.experience .flex-container .grid-container article div small{
+    color: var(--color-light);
+}
+@media screen and (max-width: 1281px) {
+    section.experience .flex-container{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 622px) {
+    section.experience .flex-container{
+        width: 100%;
+    }
+    section.experience .flex-container .flex-items{
+        width: 100%;
+    }
+}
