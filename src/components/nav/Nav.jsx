@@ -9,7 +9,7 @@ import { useState } from 'react'
 const Nav = () => {
     const [toggle, setToggle] = useState('#home');
     return ( 
-        <nav>
+        <nav >
             <a href="#home" onClick={e => {setToggle('#home')}} className={ toggle === '#home' ? 'active' : ''}> <AiOutlineHome /> </a>
             <a href="#about" onClick={e => {setToggle('#about')}} className={ toggle === '#about' ? 'active' : ''}> <AiOutlineUser /> </a>
             <a href="#experience" onClick={e => {setToggle('#experience')}} className={ toggle === '#experience' ? 'active' : ''}> <BiBook /> </a>

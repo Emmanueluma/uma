@@ -6,6 +6,7 @@ import IMG4 from '../../assets/P4.png'
 import IMG5 from '../../assets/P5.png'
 import IMG6 from '../../assets/P6.png'
 import Template from '../usable/Template'
+import { useEffect, useRef, useState } from 'react'
 const Portfolio = () => {
     const data = [
         {
@@ -51,17 +52,17 @@ const Portfolio = () => {
             demo: 'https://thecriticscompany.pages.dev/'
         }
     ]
-    const newData = data.map(item => {
-        return(
-            <Template 
-                key={item.id}
-                image={item.image}
-                title={item.title}
-                github={item.github}
-                demo={item.demo}
-            />
-        )
-    })
+        const newData = data.map(item => {
+            return(
+                <Template 
+                    key={item.id}
+                    image={item.image}
+                    title={item.title}
+                    github={item.github}
+                    demo={item.demo}
+                />
+            )
+        })
     return ( 
         <section id='portfolio' className="container Portfolio">
             <h3>my recent work</h3>

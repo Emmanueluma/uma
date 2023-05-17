@@ -61,6 +61,13 @@ header{
     background:  -webkit-linear-gradient(var(--color-primary), transparent);
     border-top-left-radius: 200px;
     border-top-right-radius: 200px;
+    overflow: hidden;
+}
+.img img {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-2deg) translateY(65px) translateX(0px);
+    object-fit: contain;
 }
 
 .rl{

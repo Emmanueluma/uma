@@ -18,6 +18,21 @@ section.experience .flex-container .flex-items{
     background-color: var(--color-bg-variant);
     transition: all .3s;
 }
+section.experience .flex-container .flex-items.one {
+    transform: translateX(-100px);
+    opacity: 0;
+    transition: all .3s;
+}
+section.experience .flex-container .flex-items.two {
+    transform: translateX(100px);
+    opacity: 0;
+    transition: all .3s;
+}
+section.experience .flex-container .flex-items.one.active,
+section.experience .flex-container .flex-items.two.active{
+    transform: translateX(0px);
+    opacity: 1;
+}
 section.experience .flex-container .flex-items:hover{
     background-color: transparent;
     border-color: var(--color-bg-variant);

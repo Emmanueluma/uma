@@ -33,6 +33,8 @@ body{
     line-height: 1.7;
     text-transform: capitalize;
     background-image: url(./assets/bg.jpg);
+    overflow-x: hidden;
+    position: relative;
 }
 
 /* GENERAL STYLES */

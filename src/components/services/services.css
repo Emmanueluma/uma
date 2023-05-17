@@ -16,6 +16,18 @@ section.services .grid-container article{
     border: 2px solid var(--color-primary);
     transition: all .3s ease-in-out;
 }
+section.services .grid-container article.grid-items{
+    transform: translateX(-30px);
+    opacity: 0;
+    transition: all .3s;
+}
+section.services .grid-container article.grid-items.two{
+    transform: translateY(40px);
+}
+section.services .grid-container article.grid-items.active{
+    transform: translateX(0px);
+    opacity: 1;
+}
 section.services .grid-container article:hover{
     background-color: transparent;
 }
