@@ -4,6 +4,15 @@ section.testimonials{
 section.testimonials .swiper-container{
     width: 55%;
 }
+section.testimonials div.main{
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all .3s;
+}
+section.testimonials div.main.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
 section.testimonials .swiper-container .swiper-items{
     padding: 1rem;
     height: auto;

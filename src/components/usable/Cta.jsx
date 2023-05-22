@@ -1,4 +1,4 @@
-import cv from '../../assets/t1.jpg'
+import cv from '../../assets/resume.pdf'
 const Cta = () => {
     return ( 
         <div className="cta">

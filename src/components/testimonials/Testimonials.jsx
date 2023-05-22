@@ -8,7 +8,8 @@ import { Pagination, Navigation} from 'swiper'
 
 import 'swiper/css'
 import 'swiper/css/pagination'
-
+import { useRef, useEffect, useState } from 'react'
+    
 const Testimonials = () => {
     const data =[
         {
@@ -37,30 +38,47 @@ const Testimonials = () => {
         },
     ]
 
+    const textRef = useRef;
+    const [textVisible, setTextVisible] = useState(false);
+    useEffect(() => {
+        const textOption = {
+            threshold: 0.5
+        }
+        const textObserver = new IntersectionObserver((entry, textObserver)=> {
+            if(entry[0].isIntersecting === true){
+                setTextVisible(entry[0].isIntersecting);
+                textObserver.unobserve(textRef.current)
+            }
+        }, textOption)
+        textObserver.observe(textRef.current)
+    },[])
+    console.log(textVisible)
     return ( 
         <section id='testimonials' className="container testimonials">
             <h3>review from clients</h3>
             <h2>Testimonials</h2>
-            <Swiper className="swiper-container"
-                modules={[Pagination, Navigation]}
-                spaceBetween={40}
-                slidesPerView={1}
-                pagination={{ clickable: true}}
-            >
-                {
-                    data.map(item => {
-                        return(
-                            <SwiperSlide className="swiper-items" key={item.id}>
-                                <div className="img-bg">
-                                    <img src={item.image} alt={item.id} />
-                                </div>
-                                <h3>{item.name}</h3>
-                                <p>{item.test}</p>
-                            </SwiperSlide>   
-                        )
-                    })
-                }
-            </Swiper>
+            <div className={ textVisible ? `main active` : `main`}>
+                <Swiper ref={textRef} className="swiper-container"
+                    modules={[Pagination, Navigation]}
+                    spaceBetween={40}
+                    slidesPerView={1}
+                    pagination={{ clickable: true}}
+                >
+                    {
+                        data.map(item => {
+                            return(
+                                <SwiperSlide className="swiper-items" key={item.id}>
+                                    <div className="img-bg">
+                                        <img src={item.image} alt={item.id} />
+                                    </div>
+                                    <h3>{item.name}</h3>
+                                    <p>{item.test}</p>
+                                </SwiperSlide>   
+                            )
+                        })
+                    }
+                </Swiper>
+            </div>
         </section>
     );
 }
