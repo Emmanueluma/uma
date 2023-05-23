@@ -60,7 +60,11 @@ const About = () => {
                             <small>80+ completed</small>
                         </article>
                     </div>
-                    <p className='text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nam libero dolorem necessitatibus, sint aliquid obcaecati quod explicabo perspiciatis, facere tempora eveniet officiis ea corporis veritatis in, vero porro aspernatur.</p>
+                    <p className='text'>
+                        Passionate junior frontend developer proficient in HTML, CSS, JavaScript, and React. 
+                        Committed to crafting captivating user experiences, I thrive on transforming ideas into
+                        visually stunning and interactive web applications.
+                    </p>
                     <p>
                         <a href="mailto:umaemmanuel62@gmail.com" className="btn--primary">let's talk</a>
                     </p>

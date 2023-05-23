@@ -53,7 +53,7 @@ const Services = () => {
                                 <BiCheck className='bicheck'/>
                             </div>
                             <div className='two'>
-                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <p>AI-powered User Research and Analysis.</p>
                             </div>
                         </li>
                         <li>
@@ -61,7 +61,7 @@ const Services = () => {
                                 <BiCheck className='bicheck'/>
                             </div>
                             <div className='two'>
-                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <p>Personalized User Experience through AI.</p>
                             </div>
                         </li>
                         <li>
@@ -69,7 +69,7 @@ const Services = () => {
                                 <BiCheck className='bicheck'/>
                             </div>
                             <div className='two'>
-                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <p>AI-driven UI Design Recommendations and Insights.</p>
                             </div>
                         </li>
                         <li>
@@ -77,7 +77,7 @@ const Services = () => {
                                 <BiCheck className='bicheck'/>
                             </div>
                             <div className='two'>
-                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <p>Automated User Testing and Feedback.</p>
                             </div>
                         </li>
                         <li>
@@ -85,7 +85,7 @@ const Services = () => {
                                 <BiCheck className='bicheck'/>
                             </div>
                             <div className='two'>
-                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <p>AI-generated Visual Design Solutions.</p>
                             </div>
                         </li>
                     </ul>
@@ -100,7 +100,7 @@ const Services = () => {
                                 <BiCheck className='bicheck'/>
                             </div>
                             <div className='two'>
-                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <p>Responsive Website Design and Development.</p>
                             </div>
                         </li>
                         <li>
@@ -108,7 +108,7 @@ const Services = () => {
                                 <BiCheck className='bicheck'/>
                             </div>
                             <div className='two'>
-                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <p>Development using HTML, CSS, JavaScript, React.</p>
                             </div>
                         </li>
                         <li>
@@ -116,7 +116,7 @@ const Services = () => {
                                 <BiCheck className='bicheck'/>
                             </div>
                             <div className='two'>
-                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <p>Website Maintenance and Ongoing Support.</p>
                             </div>
                         </li>
                         <li>
@@ -124,7 +124,7 @@ const Services = () => {
                                 <BiCheck className='bicheck'/>
                             </div>
                             <div className='two'>
-                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <p>User-friendly Interface Design with React.</p>
                             </div>
                         </li>
                         <li>
@@ -132,7 +132,7 @@ const Services = () => {
                                 <BiCheck className='bicheck'/>
                             </div>
                             <div className='two'>
-                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <p>Website Optimization for Speed and SEO.</p>
                             </div>
                         </li>
                         <li>
@@ -140,7 +140,7 @@ const Services = () => {
                                 <BiCheck className='bicheck'/>
                             </div>
                             <div className='two'>
-                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <p>Cross-Browser Compatibility Testing and Troubleshooting.</p>
                             </div>
                         </li>
                     </ul>
@@ -155,7 +155,7 @@ const Services = () => {
                                 <BiCheck className='bicheck'/>
                             </div>
                             <div className='two'>
-                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <p>AI-generated Blog and Article Writing.</p>
                             </div>
                         </li>
                         <li>
@@ -163,7 +163,7 @@ const Services = () => {
                                 <BiCheck className='bicheck'/>
                             </div>
                             <div className='two'>
-                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <p>Content Curation and Recommendations with AI.</p>
                             </div>
                         </li>
                         <li>
@@ -171,7 +171,7 @@ const Services = () => {
                                 <BiCheck className='bicheck'/>
                             </div>
                             <div className='two'>
-                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <p>AI-driven Social Media Content Creation.</p>
                             </div>
                         </li>
                         <li>
@@ -179,7 +179,7 @@ const Services = () => {
                                 <BiCheck className='bicheck'/>
                             </div>
                             <div className='two'>
-                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <p>Automated Video and Image Creation.</p>
                             </div>
                         </li>
                         <li>
@@ -187,7 +187,7 @@ const Services = () => {
                                 <BiCheck className='bicheck'/>
                             </div>
                             <div className='two'>
-                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <p>AI-powered Copywriting and Advertisements.</p>
                             </div>
                         </li>
                     </ul>
