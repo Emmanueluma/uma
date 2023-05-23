@@ -15,26 +15,26 @@ const Testimonials = () => {
         {
             id:1,
             image: T1,
-            name: "snow joe",
-            test: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint alias quisquam obcaecati id eligendi eum officiis distinctio, aspernatur illum facilis, cum ut molestiae sed consequuntur natus nulla cupiditate pariatur rerum? Quaerat aliquam fuga totam dolor modi unde iste enim odit."
+            name: "Chris Izhizhi Hosea",
+            test: "I really appreciate your work on our website. You are great! You are very thorough. I really appreciate the way you think through the best way to accomplish what we need on our site - even things that we don't think to do!."
         },
         {
             id:2,
             image: T2,
-            name: "aaliyah ismaila",
-            test: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint alias quisquam obcaecati id eligendi eum officiis distinctio, aspernatur illum facilis, cum ut molestiae sed consequuntur natus nulla cupiditate pariatur rerum? Quaerat aliquam fuga totam dolor modi unde iste enim odit."
+            name: "Michael ben",
+            test: "Working with Emily was a breeze. She quickly understood our requirements, and her expertise in HTML, CSS, and JavaScript delivered an intuitive and visually stunning website. Her commitment to excellence is commendable!"
         },
         {
             id:3,
             image: T3,
             name: "benjamin garvey",
-            test: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint alias quisquam obcaecati id eligendi eum officiis distinctio, aspernatur illum facilis, cum ut molestiae sed consequuntur natus nulla cupiditate pariatur rerum? Quaerat aliquam fuga totam dolor modi unde iste enim odit."
+            test: "emmanuel's passion for frontend development shines through in her work. Her responsive design skills ensured our website looked great across devices. Her collaborative nature and commitment to delivering quality results make her a valuable asset to any team."
         },
         {
             id:4,
             image: T4,
             name: "mary akor",
-            test: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint alias quisquam obcaecati id eligendi eum officiis distinctio, aspernatur illum facilis, cum ut molestiae sed consequuntur natus nulla cupiditate pariatur rerum? Quaerat aliquam fuga totam dolor modi unde iste enim odit."
+            test: "Sam's dedication to creating user-centric experiences is remarkable. Their proficiency in HTML, CSS, and JavaScript was evident in the seamless functionality and visually appealing design of our website. A reliable and talented developer!"
         },
     ]
 
