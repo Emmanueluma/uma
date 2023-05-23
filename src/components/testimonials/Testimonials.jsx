@@ -52,7 +52,6 @@ const Testimonials = () => {
         }, textOption)
         textObserver.observe(textRef.current)
     },[])
-    console.log(textVisible)
     return ( 
         <section id='testimonials' className="container testimonials">
             <h3>review from clients</h3>

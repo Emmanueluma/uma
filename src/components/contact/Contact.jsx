@@ -79,26 +79,26 @@ const Contact = () => {
         <h2>contact me</h2>
         <div className="flex-container">
             <div className="flex-item one ">
-                <article ref={conRef} className={conVisible ? `intersec active` : `intersec` }>
+                <article ref={conRef} className={conVisible ? `intersec one active` : `intersec` }>
                     <MdOutlineEmail className="icons" />
                     <h3>email</h3>
                     <h4>umaemmanuel62@gmail.com</h4>
                     <a href="mailto:umaemmanuel62@gmail.com" target="_blank" rel="noopener noreferrer">send a message</a>
                 </article>
-                <article ref={conRef1} className={conVisible ? `intersec active` : `intersec` }>
+                <article ref={conRef1} className={conVisible1 ? `intersec two active` : `intersec` }>
                     <RiMessengerLine className="icons" />
                     <h3>messenger</h3>
                     <h4>nicki scott</h4>
                     <a href="http://m.me/100076048962580/" target="_blank" rel="noopener noreferrer">send a message</a>
                 </article>
-                <article ref={conRef2} className={conVisible ? `intersec active` : `intersec` }>
+                <article ref={conRef2} className={conVisible2 ? `intersec three active` : `intersec` }>
                     <BsWhatsapp className="icons" />
                     <h3>whatsapp</h3>
                     <h4>+2349125246051</h4>
                     <a href="https://api.whatsapp.com/send?phone=9125246051" target="_blank" rel="noopener noreferrer">send a message</a>
                     </article>
             </div>
-            <div ref={conRef3} className={conVisible ? `flex-item two intersec active` : `flex-item two intersec` }>
+            <div ref={conRef3} className={conVisible3 ? `flex-item two intersec active four` : `flex-item two intersec` }>
                 <form ref={form} onSubmit={sendEmail}>
                     <input 
                         type="text" 

@@ -13,10 +13,23 @@ section.contact .flex-container .intersec{
     opacity: 0;
     transition: all .3s;
 }
-section.contact .flex-container .intersec.active{
+section.contact .flex-container .intersec.one.active{
     transform: translateY(0px);
     opacity: 1;
 }
+section.contact .flex-container .intersec.two.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+section.contact .flex-container .intersec.three.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+section.contact .flex-container .intersec.four.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
 section.contact .flex-container .flex-item{
     height: 600px;
     width: 60%;

@@ -6,8 +6,9 @@ import IMG4 from '../../assets/P4.jpg'
 import IMG5 from '../../assets/P5.jpg'
 import IMG6 from '../../assets/P6.jpg'
 import Template from '../usable/Template'
-import { useEffect, useRef, useState } from 'react'
+
 const Portfolio = () => {
+
     const data = [
         {
             id:1,
@@ -55,6 +56,7 @@ const Portfolio = () => {
         const newData = data.map(item => {
             return(
                 <Template 
+                    ref={item.ref}
                     key={item.id}
                     image={item.image}
                     title={item.title}
@@ -63,6 +65,7 @@ const Portfolio = () => {
                 />
             )
         })
+        
     return ( 
         <section id='portfolio' className="container Portfolio">
             <h3>my recent work</h3>

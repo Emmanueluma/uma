@@ -1,5 +1,5 @@
 
-const Template = ( {image, title, github, demo } ) => {
+const Template = ( {image, title, github, demo} ) => {
     return ( 
         <article className="portfolio-card">
             <div className="portfolio-img">

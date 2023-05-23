@@ -7,7 +7,7 @@ import React from 'react';
 import { Typewriter } from 'react-simple-typewriter'
 const Header = () => {
     return ( 
-        <header id='home' className='container'>
+        <header id='home' >
         <div className="name">
             <h5>Hello, I'm</h5>
             <h1 >
@@ -20,7 +20,7 @@ const Header = () => {
                         typeSpeed={70}
                     />
                 </span>
-      </h1>
+            </h1>
             <h5>frontend developer</h5>
         </div>
         <Cta />

@@ -84,6 +84,7 @@ section.about .flex-container .flex-items.two p{
 
 
 
+
 @media screen and (max-width: 1520px) {
     section.about .flex-container{
         gap: 50px;
@@ -153,5 +154,14 @@ section.about .flex-container .flex-items.two p{
     }
     section.about .flex-container .flex-items.one div.img-container {
         width: 200px;
+    }
+}
+@media screen and (max-width: 347px) {
+    section.about .flex-container .flex-items.two p a.btn--primary{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 61px;
+        width: 100px;
     }
 }
