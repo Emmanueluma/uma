@@ -23,8 +23,14 @@
 html{
     scroll-behavior: smooth;
 }
-::-webkit-scrollbar{
-    display: none;
+html::-webkit-scrollbar {
+    width: .5rem;
+}
+html::-webkit-scrollbar-track {
+    background: var(--color-light);
+}
+html::-webkit-scrollbar-thumb {
+    background: var(--color-bg);
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -78,6 +84,9 @@ a:hover {
     }
 }
 @media screen and (max-width: 600px) {
+    ::-webkit-scrollbar{
+        display: none;
+    } 
     .container{
         width: var(--container-width-sm);
     }

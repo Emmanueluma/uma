@@ -21,7 +21,7 @@ const Header = () => {
                     />
                 </span>
             </h1>
-            <h5>frontend developer</h5>
+            <h5>junior frontend developer</h5>
         </div>
         <Cta />
         <Img />
