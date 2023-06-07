@@ -1,6 +1,7 @@
 section.contact{
     margin-bottom: 4rem;
     padding-top: 2rem;
+    height: auto;
 }
 section.contact .flex-container{
     height: auto;
