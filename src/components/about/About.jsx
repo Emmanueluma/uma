@@ -45,19 +45,19 @@ const About = () => {
                         <article>
                             <FaAward />
                             <h3>experience</h3>
-                            <small>3+ years working</small>
+                            <small>1+ years working</small>
                         </article>
 
                         <article>
                             <FiUser />
                             <h3>clients</h3>
-                            <small>300+ Worldwide</small>
+                            <small>10+ Worldwide</small>
                         </article>
 
                         <article>
                             <VscFolderLibrary />
                             <h3>projects</h3>
-                            <small>80+ completed</small>
+                            <small>40+ completed</small>
                         </article>
                     </div>
                     <p className='text'>
