@@ -72,12 +72,16 @@ section.contact .flex-container .flex-item.two{
 }
 section.contact .flex-container .flex-item.two form {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1.5rem;
 }
 section.contact .flex-container .flex-item.two form input,
 section.contact .flex-container .flex-item.two form textarea{
     width: 80%;
     padding: 1.5rem .3rem;
-    margin-bottom: 1.5rem;
     background-color: transparent;
     border: 2px solid var(--color-light);
     text-indent: 1rem;
